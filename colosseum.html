@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOSSEUM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="places.css">
+    <style>
+        .parallex1 {
+            background: url("https://img.besthqwallpapers.com/Uploads/25-3-2019/84892/colosseum-rome-landmark-morning-sunrise.jpg");
+            height: 40rem;
+            margin: 1rem 0rem;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <button class="mybtn" onclick="navbardisp()">+</button>
+            <a href="travel-main.html"><svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path
+                        d="M408 120C408 174.6 334.9 271.9 302.8 311.1C295.1 321.6 280.9 321.6 273.2 311.1C241.1 271.9 168 174.6 168 120C168 53.73 221.7 0 288 0C354.3 0 408 53.73 408 120zM288 152C310.1 152 328 134.1 328 112C328 89.91 310.1 72 288 72C265.9 72 248 89.91 248 112C248 134.1 265.9 152 288 152zM425.6 179.8C426.1 178.6 426.6 177.4 427.1 176.1L543.1 129.7C558.9 123.4 576 135 576 152V422.8C576 432.6 570 441.4 560.9 445.1L416 503V200.4C419.5 193.5 422.7 186.7 425.6 179.8zM150.4 179.8C153.3 186.7 156.5 193.5 160 200.4V451.8L32.91 502.7C17.15 508.1 0 497.4 0 480.4V209.6C0 199.8 5.975 190.1 15.09 187.3L137.6 138.3C140 152.5 144.9 166.6 150.4 179.8H150.4zM327.8 331.1C341.7 314.6 363.5 286.3 384 255V504.3L192 449.4V255C212.5 286.3 234.3 314.6 248.2 331.1C268.7 357.6 307.3 357.6 327.8 331.1L327.8 331.1z" />
+                </svg></a>
+            <ul class="nav-items">
+                <li class="n1" onclick="homescrl()">HOME</li>
+                <li class="n2" onclick="aboutscrl()">ABOUT</li>
+                <li class="n3" onclick="tourscrl()">TOUR</li>
+                <li class="n4" onclick="ticketscrl()">BOOKINGS</li>
+                <li class="n5" onclick="nearbyscrl()">POPULAR</li>
+            </ul>
+        </div>
+        <img name="slide" width="100%" height="650" class="main-background">
+        <div class="content">
+            <center>
+                <h1>COLOSSEUM</h1>
+            </center>
+            <p>The Colosseum, also named the Flavian Amphitheater, is a large amphitheater in Rome. It was built during
+                the reign of the Flavian emperors as a gift to the Roman people.</p>
+            <p>It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the
+                world today, despite its age.
+                <br>After 4 centuries of active usage, the magnificent arena fell into disregard, and up until the 18th
+                century it was utilized as a source of building elements. Though two-thirds of the original Colosseum
+                has been damaged with time, the amphitheater stays a popular tourist location, in addition to a renowned
+                symbol of Rome and its long, troubled history.
+            </p>
+        </div>
+        <div class="night">
+            <br>
+            <p>
+            <h2>YOU DON'T WANT TO MISS THIS <br> AN UNFORGETTABLE EXPERIENCE</h2>
+            </p>
+            <p style="color: rgb(95, 208, 236);">
+                The Colosseum is impressive at any time of day, but at night, it's somehow even more magical. When the
+                sun sets, the huge amphitheatre is lit up from within, so it's beautifully illuminated. But you don't
+                just have to admire it from nearby, you can actually visit and go inside the Colosseum at night. The
+                evening tours of the Colosseum are called 'Luna sul Colosseo' aka Moon over the Colosseum<br>The only
+                way to visit the Colosseum in the evening is via a guided tour, so you will have a group and a guide
+                with you during your experience.</p>
+            <img class="image1" src="https://colosseum.tours/assets/imagess/colosseum_private.jfif"
+                alt="night colosseum">
+        </div>
+        <div class="parallex1"></div>
+        <div class="tour">
+            <h1>LET US TAKE YOU ON A VIRTUAL TOUR OF THE COLOSSEUM</h1>
+            <iframe width="100%" height="484" src="https://www.youtube.com/embed/eJeF7hDB0UA" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="history">
+            <ul class="p1">
+                <li>
+                    <p>The Colosseum, Rome’s greatest amphitheater, was commissioned by the Emperor Vespasian in 72 CE.
+                        It is built on the marshy site of an artificial lake and provided the Romans a venue for hosting
+                        executions, animal hunts, gladiatorial games, re-enactments, and dramas. At the time of its
+                        construction, it was called the Flavian amphitheater. Later on, the amphitheater came to be
+                        known as the Colosseum after the colossal statue of Sun located near it.</p>
+                    <p>The design of the Colosseum was unique. At 52m high, covering 3357 square metres, and with a
+                        capacity to seat 73,000 people, it was the largest and most complex amphitheatre in the Roman
+                        world. No other amphitheatre eclipsed it.
+                    </p>
+                    <p>Colosseum is an elliptical shape building with a short axis of 156m, and a long one of 188m. It
+                        stood 50 meters high, 190 meters long, and 156 meters wide. The structure of the Colosseum was
+                        built of several different materials: travertine blocks were used for load-bearing pillars, and
+                        external walls, stairs, and radial walls were constructed from blocks and bricks of tufa. Arches
+                        and vaults supported the structure solidly.</p>
+                </li>
+            </ul>
+            <center>
+                <h1>INSIDE THE COLOSSEUM</h1>
+            </center>
+            <div class="p2">
+                <img src="https://romecolosseumtickets.tours/wp-content/uploads/2022/05/inside-the-colosseum.jpg"
+                    alt="images">
+                <img src="https://www.wantedinrome.com/i/preview/storage/uploads/2020/09/tourist-crashes-drone-inside-colosseum.jpg"
+                    alt="images">
+            </div>
+            <p> Spread across 6 acres and standing 150 feet tall, The Colosseum still holds the Guinness World Record
+                for the world’s largest amphitheatre. Hence, this massive arena has a whopping 80 entrances so that
+                people can enter and exit quickly. In the initial years, this arena was used for hosting games, shows
+                etc and could easily seat 80,000 spectators for an array of events. This puts this ancient landmark in
+                par with today’s modern sports stadiums. <br>
+                Arena was the main area where the battles were fought. This once blood-soaked floor, however, was
+                majorly demolished by archaeologists in the 19th century and only a part of it was recovered so that it
+                can be accessed only via special tours. You can enjoy a breathtaking 360 degree view of the amphitheater
+                standing from here. <br> Located below the Colosseum is an underground area called the Hypogeum, this
+                was divided into two levels which comprised of a series of connected corridors and tunnels that lead
+                into and out of the Colosseum.</p>
+        </div>
+
+        <div class="open-details">
+            <ul>
+                <li>
+                    <h1>ADDRESS:</h1>
+                    <p> Piazza del Colosseo, 1, in Rome, Italy</p>
+                    <br>
+                    <h1>TIMINGS:</h1>
+                    <p>The Colosseum is open between 10:30 AM to 7:15 PM throughout the week with final admission at
+                        6:15 PM. Note: the amphitheater is shut on 1 January and 25 December.</p>
+                </li>
+                <li><iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24331248.21272867!2d-21.257769100000033!3d41.890210200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColosseum!5e0!3m2!1sen!2sin!4v1667155524579!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+            </ul>
+        </div>
+        <table border="2" class="hotels-list" cellspacing="1" cellpadding="1">
+            <caption>
+                <h2>A list of hotels near the GREAT WALL OF CHINA is given below</h2>
+            </caption>
+            <tr>
+                <td>HOTEL</td>
+                <td>LOCATION</td>
+                <td>VISITING LINK</td>
+            </tr>
+            <tr>
+                <td>ROMANCE AL COLOSSEO 2</td>
+                <td>del Monte Oppio 12, Rione Monti, 00184 Rome, Italy</td>
+                <td><a href="https://www.booking.com/hotel/it/romance-al-colosseo-2.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+            <tr>
+                <td>Luxury Stars</td>
+                <td>Labicana, Rione Monti, 00184 Rome, Italy</td>
+                <td><a href="https://www.booking.com/hotel/it/luxury-stars-in-rome-andromeda-apartment-in-colosseum.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf&dest_id=-126693;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=9;hpos=9;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1667157384;srpvid=45f88783ac850374;type=total;ucfs=1&#hotelTmpl"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+            <tr>
+                <td>B&B Domus Aurea</td>
+                <td>della Domus Aurea 3, Rione Monti, 00184 Rome, Italy</td>
+                <td><a href="https://www.booking.com/hotel/it/b-amp-b-domus-aurea.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+            <tr>
+                <td>Residenza Roma Imperiale</td>
+                <td>Cavour piano primo, int. 1, Rione Monti, 00184 Rome, Italy</td>
+                <td><a href="https://www.booking.com/hotel/it/residenza-roma-imperiale.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf#map_closed"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+            <tr>
+                <td>Colosseum Palace Star</td>
+                <td>del Monte Oppio, Rione Monti, 00184 Rome, Italy</td>
+                <td><a href="https://www.booking.com/hotel/it/colosseum-palace-star.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+            <tr>
+                <td>Hotel Romano</td>
+                <td>Largo Corrado Ricci 32, Rione Monti, 00184 Rome, Italy</td>
+                <td><a href="https://www.booking.com/hotel/it/romano.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf&dest_id=1506;dest_type=landmark;dist=0;group_adults=2;group_children=0;hapos=7;hpos=7;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1667157092;srpvid=1d5286f1eade0227;type=total;ucfs=1&#hotelTmpl"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+            <tr>
+                <td>Dimora ai Fori</td>
+                <td>Cavour Interno 4, 2 piano, Rione Monti, 00184 Rome, Italy</td>
+                <td><a href="https://www.booking.com/hotel/it/dimora-ai-fori.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf&dest_id=1506;dest_type=landmark;dist=0;group_adults=2;group_children=0;hapos=10;hpos=10;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1667157092;srpvid=1d5286f1eade0227;type=total;ucfs=1&#hotelTmpl"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+            <tr>
+                <td>Martino Ai Monti</td>
+                <td>Domenichino 7, Rione Monti, 00184 Rome, Italy </td>
+                <td><a href="https://www.booking.com/hotel/it/martino-ai-monti.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf&dest_id=1506;dest_type=landmark;dist=0;group_adults=2;group_children=0;hapos=15;hpos=15;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1667157092;srpvid=1d5286f1eade0227;type=total;ucfs=1&#hotelTmpl"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+            <tr>
+                <td>DNB House Hotel</td>
+                <td>Cavour 85/a, Rione Monti, 00184 Rome, Italy</td>
+                <td><a href="https://www.booking.com/hotel/it/domus-nova-bethlem.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf&dest_id=1506;dest_type=landmark;dist=0;group_adults=2;group_children=0;hapos=19;hpos=19;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1667157092;srpvid=1d5286f1eade0227;type=total;ucfs=1&#hotelTmpl"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+            <tr>
+                <td>Colosseum Corner</td>
+                <td> del Monte Oppio 12, Rione Monti, 00184 Rome, Italy</td>
+                <td><a href="https://www.booking.com/hotel/it/b-amp-b-colosseum-corner.en-gb.html?aid=314920&label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-325348169%3Alp1007826%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8&sid=f6dfe66c8b06c4469203a73cf27ac5cf"
+                        target="=_blank"><button>
+                            <p> click</p> here
+                        </button></a></td>
+            </tr>
+        </table>
+        <div class="nearby" style="height: 100%;">
+            <hr>
+            <center>
+                <h1>BEST PLACES</h1>
+            </center>
+            <hr>
+            <ul>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/17/34/7c/arco-di-costantino.jpg?w=400&h=300&s=1">
+                    <p>ARCH OF CONSTANTINE</p>
+                </li>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/eb/a2/58/ludus-magnus.jpg?w=400&h=300&s=1">
+                    <p>Ludus Magnus</p>
+                </li>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/3e/8e/d2/via-sacra-3.jpg?w=400&h=300&s=1">
+                    <p>Via Sacra</p>
+                </li>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/54/7f/28/san-martino-ai-monti.jpg?w=400&h=300&s=1">
+                    <p>San Martino ai Monti</p>
+                </li>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/79/7c/d6/temple-of-venus-and-roma.jpg?w=400&h=300&s=1">
+                    <p>Temple of Venus and Roma</p>
+                </li>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/02/97/2d/forum-romain.jpg?w=400&h=300&s=1">
+                    <p>Roman Forum</p>
+                </li>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/2d/16/3f/la-fontana-del-colosseo.jpg?w=400&h=300&s=1">
+                    <p>La Fontana del Colosseo</p>
+                </li>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/2d/16/3f/la-fontana-del-colosseo.jpg?w=400&h=300&s=1">
+                    <p>San Pietro in Vincoli</p>
+                </li>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ed/7e/29/view-from-colosseum.jpg?w=400&h=300&s=1">
+                    <p>Basilica Santa Francesca Romana</p>
+                </li>
+                <li><img
+                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/96/98/d7/forum-of-augustus.jpg?w=400&h=300&s=1">
+                    <p>Forum of Augustus</p>
+                </li>
+
+            </ul>
+        </div>
+        <h1 class="end">
+            <marquee scrollamount="13">THANK YOU FOR SPENDING YOUR TIME WATCHING COLOSSEUM</marquee>
+        </h1>
+    </div>
+    <button class="taptotop" onclick="scrltop()">
+        <h3>BACK <br> TO <br> TOP</h3>
+    </button>
+    <script>
+        var images = [];
+        var time = 1800;
+        let i = 0;
+        images[0] = 'https://d3hne3c382ip58.cloudfront.net/files/uploads/bookmundi/resized/cmsfeatured/the-colosseum-tour-1551177291-785X440.jpg';
+        images[1] = 'https://media.istockphoto.com/photos/colosseum-in-rome-without-people-in-the-morning-italy-picture-id1194899511?b=1&k=20&m=1194899511&s=170667a&w=0&h=kQLVdmTya49coiHFgKYWkXI-3s68tivLDhTcEKQXZgg=';
+        images[2] = 'data:image/jpeg;base64,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';
+        images[3] = 'https://img.besthqwallpapers.com/Uploads/25-3-2019/84892/colosseum-rome-landmark-morning-sunrise.jpg';
+        images[4] = 'https://i.pinimg.com/736x/46/1d/15/461d156a16ea993c55edf56881b4869c.jpg';
+        images[5] = 'https://media.istockphoto.com/photos/colosseum-in-rome-with-morning-sun-picture-id1290101405?b=1&k=20&m=1290101405&s=170667a&w=0&h=FPmmTNGnOLsw_KvNXHdKpRdao_IHn592U7bEL-Gl69A=';
+
+        function changeimg() {
+            document.slide.src = images[i];
+            if (i < images.length - 1) {
+                i += 1;
+            } else { i = 0; }
+            setTimeout("changeimg()", time);
+        }
+        window.onload = changeimg;
+
+        function scrltop() {
+            window.scrollTo(0, 0)
+        }
+        function homescrl() {
+            window.scrollTo(0, 0)
+        }
+        var v = window.innerWidth
+
+
+        if (v <= 480) {
+            function aboutscrl() {
+                window.scrollTo(0, 240)
+            }
+            function tourscrl() {
+                window.scrollTo(0, 2700)
+            }
+            function ticketscrl() {
+                window.scrollTo(0, 5930)
+            }
+            function nearbyscrl() {
+                window.scrollTo(0, 11350)
+            }
+        }
+        if (v >= 1024) {
+            function aboutscrl() {
+                window.scrollTo(0, 600)
+            }
+            function tourscrl() {
+                window.scrollTo(0, 2250)
+            }
+            function ticketscrl() {
+                window.scrollTo(0, 3900)
+            }
+            function nearbyscrl() {
+                window.scrollTo(0, 6600)
+            }
+        }
+        if (v > 481 && v < 1024) {
+            function aboutscrl() {
+                window.scrollTo(0, 600)
+            }
+            function tourscrl() {
+                window.scrollTo(0, 2630)
+            }
+            function ticketscrl() {
+                window.scrollTo(0, 4590)
+            }
+            function nearbyscrl() {
+                window.scrollTo(0, 6230)
+
+            }
+
+        }
+
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+                document.querySelector('.taptotop').style.display = "block"
+                document.querySelector('.nav').style.backgroundColor = "black"
+            }
+            else {
+                document.querySelector('.nav').style.backgroundColor = "rgba(0,0,0,0.5)"
+                document.querySelector('.taptotop').style.display = "none"
+            }
+            if (v <= 480) {
+
+
+                if (document.body.scrollTop > 4800 || document.documentElement.scrollTop > 4800) {
+                    document.querySelector('.p2').children[0].style.left = "0rem"
+                    document.querySelector('.p2').children[1].style.left = "0rem"
+                }
+            }
+            if (v >= 1024) {
+                if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500) {
+                    document.querySelector('.image2').style.left = 0
+                }
+                if (document.body.scrollTop > 3100 || document.documentElement.scrollTop > 3100) {
+                    document.querySelector('.p2').children[0].style.left = 0
+                    document.querySelector('.p2').children[1].style.left = 0
+                }
+                if (document.body.scrollTop > 4350 || document.documentElement.scrollTop > 4350)
+                    document.querySelector('.links').style.top = "18rem"
+            }
+            if (v >= 481 && v <= 1023)
+                if (document.body.scrollTop > 3200 || document.documentElement.scrollTop > 3200) {
+                    document.querySelector('.p2').children[0].style.left = 0
+                    document.querySelector('.p2').children[1].style.left = 0
+                }
+            if (document.body.scrollTop > 5000 || document.documentElement.scrollTop > 5000)
+                document.querySelector('.links').style.top = "18rem"
+        }
+        var mybtn = document.querySelector('.mybtn')
+
+        if (v <= 480) {
+            var disp = document.querySelector('.nav').children[2]
+            console.log(disp)
+            function navbardisp() {
+                if (disp.classList.contains("nav-items")) {
+                    disp.classList.add("list2")
+                    disp.classList.remove("nav-items")
+                    mybtn.innerText = "X"
+                }
+                else {
+                    mybtn.innerText = "+"
+                    disp.classList.add("nav-items")
+                    disp.classList.remove("list2")
+                }
+            }
+        }
+        if (v >= 481 && v <= 1023) {
+            var disp = document.querySelector('.nav').children[2]
+            console.log(disp)
+            function navbardisp() {
+                if (disp.classList.contains("nav-items")) {
+                    disp.classList.add("list3")
+                    disp.classList.remove("nav-items")
+                    mybtn.innerText = "X"
+                }
+                else {
+                    mybtn.innerText = "+"
+                    disp.classList.add("nav-items")
+                    disp.classList.remove("list3")
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

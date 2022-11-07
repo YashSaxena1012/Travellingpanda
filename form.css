@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+body {
+    /* background: url("https://www.xmple.com/wallpaper/gradient-orange-white-linear-2880x1800-c2-ffffff-ff8c00-a-210-f-14.svg"); */
+    background: url("https://img.wallpapersafari.com/desktop/1600/900/75/32/zKYG1E.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 7rem;
+}
+
+.user-icon {
+    filter: invert(100%);
+    position: absolute;
+    top: -13rem;
+    left: 24rem;
+    height: 12rem;
+    width: 12rem;
+
+
+}
+
+.login {
+    border-radius: 1rem;
+    width: 30rem;
+    height: 25rem;
+    background: white;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.signup {
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px black;
+    background: white;
+    width: 30rem;
+    height: 25rem;
+    border-radius: 1rem;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+table {
+    margin: 1rem 7rem;
+}
+
+input {
+    width: 12rem;
+    padding: .5rem;
+    height: 1.5rem;
+    margin: .5rem 1rem;
+    border-radius: 5px;
+}
+
+input:hover {
+    box-shadow: inset 0px 0px 5px slategray;
+
+}
+
+.checkbox {
+    width: 1.5rem;
+}
+
+.mybtn {
+    background: rgb(248, 73, 12);
+    color: white;
+    margin: 1rem -0.2rem;
+    outline: none;
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    padding: .3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mybtn:hover {
+    color: rgb(248, 73, 12);
+    background-color: white;
+}
+
+.login-welcome {
+    background: url("https://media.istockphoto.com/photos/blurred-abstract-bokeh-background-picture-id1172073205?k=20&m=1172073205&s=612x612&w=0&h=4-ZyzTKe8ORqGle1kdYn0Hw7TgCX-MLAzL3l29v0EXM=");
+    width: 30rem;
+    color: white;
+    height: 25rem;
+    border: 2px solid rgb(248, 247, 247);
+    box-shadow: 0px 0px 20px rgb(247, 244, 244);
+    position: absolute;
+    left: 30rem;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.signup-welcome {
+    visibility: hidden;
+    position: absolute;
+    color: white;
+    width: 30rem;
+    height: 25rem;
+    background: url("https://media.istockphoto.com/photos/abstract-light-in-city-at-night-picture-id538015043?b=1&k=20&m=538015043&s=170667a&w=0&h=vINSQV-hgUNv3i-RNPsklMkkiT7TLfkh-EoXoldCPew=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(248, 247, 247);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px rgb(247, 244, 244);
+}
+
+.signup-welcome-btn {
+    cursor: pointer;
+    background: white;
+    outline: none;
+    color: orangered;
+    border-radius: 15px;
+    width: 6rem;
+    font-size: large;
+    font-weight: 800;
+    height: 2rem;
+    background: transparent;
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px white;
+}
+
+
+.login-welcome-btn {
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px white;
+    color: orangered;
+    border-radius: 15px;
+    width: 6rem;
+    font-size: large;
+    font-weight: 800;
+    height: 2rem;
+}
+
+.signup-welcome-btn:hover, .login-welcome-btn:hover {
+    transform: scale(1.15);
+    letter-spacing: .1rem;
+}
+
+.heading {
+    margin-left: 4.5rem;
+}
+
+.login-welcome>* {
+    width: 20rem;
+    margin: 2rem 7rem;
+    font-size: large;
+}
+
+.signup-welcome>* {
+    width: 20rem;
+    margin: 1.72rem 5rem;
+    font-size: large;
+}
+
+.login-welcome h2 {
+    font-size: x-large;
+}
+
+.signup-welcome h2 {
+    margin-top: 2rem;
+    font-size: x-large;
+}
+
+.follow {
+    width: 30rem;
+    list-style-type: none;
+    display: flex;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    justify-content: start;
+}
+
+.follow li {
+    margin-top: -1rem;
+    margin-left: 4rem;
+}
+
+.follow svg {
+    width: 1rem;
+    height: 1rem;
+}
+@media (max-width:500px) {
+    .container {
+        display: block;
+        flex-direction: column;
+        margin: 35rem 0rem;
+    }
+
+    .mybtn {
+        margin: 1rem -1rem;
+    }
+
+    .heading {
+        margin-left: 2.5rem;
+    }
+.user-icon{
+    z-index: 5;
+    position: absolute;
+    left: 5rem;
+    height: 10rem;
+    width: 10rem;
+
+}
+    .login {
+
+        height: 30rem;
+        width: 20rem;
+    }
+
+    .signup {
+        margin-bottom: 10rem;
+        height: 30rem;
+        width: 20rem;
+    }
+
+    .signup-welcome>* {
+        width: 10rem;
+        margin: 1.72rem 6rem;
+    }
+
+    .login-welcome>* {
+        width: 10rem;
+        margin: 1.72rem 6rem;
+    }
+
+    .login-welcome {
+        height: 30rem;
+        width: 20rem;
+        position: absolute;
+        left: 0;
+        top: 30rem;
+    }
+
+    .signup-welcome {
+        position: absolute;
+        top: 0rem;
+        height: 30rem;
+        width: 20rem;
+
+    }
+
+    table td {
+        display: block;
+    }
+
+    input {
+        margin: 1rem -3rem;
+    }
+
+    .checkbox {
+        margin-left: 2rem;
+    }
+
+    .follow {
+        width: 100%;
+    }
+
+    .follow li {
+        margin: -1rem 2rem;
+    }
+
+}
+@media (min-width:501px) and (max-width:1023px) {
+    .container {
+        display: block;
+        flex-direction: column;
+        margin: 30rem 0rem;
+    }
+
+    .user-icon {
+        height: 18rem;
+        position: absolute;
+        left: 9rem;
+        top: -15rem;
+    }
+
+    .login {
+
+        height: 40rem;
+        width: 30rem;
+    }
+
+    .signup {
+        margin-bottom: 15rem;
+        height: 40rem;
+        width: 30rem;
+    }
+
+    .signup-welcome>* {
+        font-size: x-large;
+        width: 15rem;
+        margin: 3rem 6rem;
+    }
+
+    .login-welcome>* {
+        font-size: x-large;
+        width: 15rem;
+        margin: 3rem 6rem;
+    }
+
+    .login-welcome {
+        height: 40rem;
+        width: 30rem;
+        position: absolute;
+        left: 0;
+        top: 40rem;
+    }
+
+    .signup-welcome {
+        height: 40rem;
+        width: 30rem;
+        position: absolute;
+        top: 0rem;
+    }
+
+    table {
+        margin: 0rem 3rem;
+    }
+
+    input {
+        margin: 2rem 1rem;
+    }
+
+    .checkbox {
+        margin-left: 2rem;
+    }
+
+    .follow li {
+        margin: 1rem 3rem;
+    }
+
+    .heading {
+        width: 20rem;
+        margin: 1rem 7rem;
+    }
+
+}

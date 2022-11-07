@@ -1,0 +1,719 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.taptotop {
+    display: none;
+    position: sticky;
+    left: 77rem;
+    bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    transition: 1s;
+}
+
+.taptotop:hover {
+    transform: scale(1.05);
+    border: 2px solid white;
+    color: crimson;
+    box-shadow: 0px 0px 10px red;
+}
+
+.navbar {
+    z-index: 1;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 4rem;
+}
+
+.logo {
+    filter: invert(100%);
+    margin: 0.3rem 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    margin-top: -2.7rem;
+    column-gap: 3rem;
+    margin-left: 45rem;
+}
+
+.nav-items li {
+    cursor: pointer;
+    padding: .2rem;
+    font-size: large;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.nav-items li:hover {
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.mybtn {
+    display: none;
+}
+
+.parallex1 {
+
+    height: 48rem;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .6)), url("https://www.mistay.in/travel-blog/content/images/2020/06/cover--delhi-food-area-hotel-rooms.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallex1>* {
+    font-weight: 900;
+    font-size: 3rem;
+    position: relative;
+    top: 15rem;
+    margin-left: 3rem;
+    color: white;
+    text-shadow: 1px 1px rgb(241, 233, 233);
+}
+
+.parallex1 p {
+    letter-spacing: .2rem;
+    font-weight: bolder;
+    width: 30rem;
+    margin: 2rem 3rem;
+    font-size: large;
+}
+
+.login {
+    padding: .2rem;
+    border-radius: 3rem;
+    font-size: large;
+    border: 2px solid white;
+    background: transparent;
+    width: 12rem;
+    height: 3rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px grey, 0px 0px 10px white;
+    transition: 1s;
+    color: white;
+    font-weight: 600;
+}
+
+.login:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    box-shadow: inset 0px 0px 10px rgb(90, 84, 84);
+}
+
+.about {
+    display: flex;
+    font-weight: 900;
+    font-size: large;
+    height: 30rem;
+}
+
+.about-video {
+    position: relative;
+    top: 5rem;
+    left: -50rem;
+    width: 35rem;
+    height: 300px;
+    transition: 2s;
+}
+
+.about-text {
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+    width: 700px;
+    text-align: center;
+    letter-spacing: .2rem;
+    transition: 1.5s;
+}
+
+.parallex2 {
+    height: 25rem;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .3)), url("Desert.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -20px;
+}
+
+.parallex2>* {
+    font-weight: 500;
+    font-size: large;
+    transition: 1.5s;
+    position: relative;
+    left: 60rem;
+    color: white;
+    width: 20rem;
+    text-align: start;
+    margin-bottom: 1rem;
+    letter-spacing: .1rem;
+}
+
+.parallex2 h2 {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.places {
+    transition: 2s;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+}
+
+.places>* {
+    transition: 2s;
+    margin: 1rem 3rem;
+    height: 17rem;
+    width: 30rem;
+    color: black;
+    text-align: center;
+    border: black;
+}
+
+.places>*:hover {
+    transform: scale(1.05);
+}
+
+.places h2, p {
+    margin-top: .5rem;
+
+}
+
+.left {
+    box-shadow: 4px 4px 5px grey, 5px 5px 8px black;
+    position: relative;
+    left: -55rem
+}
+.right {
+    box-shadow: -4px 4px 10px grey, -5px 5px 5px black;
+    position: relative;
+    left: 90rem;
+}
+
+.places img {
+    margin-top: 1rem;
+    width: 20rem;
+    height: 10rem;
+}
+
+.instasnap h2 {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(rgb(231, 45, 191), rgb(75, 169, 212));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1rem 0rem;
+}
+
+.pics ,.more{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pics li {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.pics li img {
+    height: 18rem;
+    width: 25rem;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+
+.show {
+    display: none;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: large;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.show:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.pics li img:hover {
+    opacity: .9;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px black;
+}
+
+.questions {
+    color: white;
+    font-weight: bold;
+    height: 40rem;
+    background: url('https://media.istockphoto.com/photos/question-mark-picture-id1292771469?b=1&k=20&m=1292771469&s=170667a&w=0&h=XU4Moc0bZoR4xywHxRZR0ynUAbpRRt9lQ6ShuoSoBUM=') no-repeat center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.questions h1 {
+    margin: -1rem 10rem;
+    text-transform: uppercase;
+}
+
+.questions form {
+    width: 10rem;
+    top: 3rem;
+    position: relative;
+    left: 10rem;
+}
+
+.questions input {
+    color: black;
+    padding: 1rem;
+    font-weight: bold;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.questions input:hover {
+    box-shadow: inset 0px 0px 7px grey;
+}
+
+.questions textarea {
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 1rem;
+    padding: .4rem;
+    border: 2px solid black;
+}
+
+.questions textarea:hover {
+    box-shadow: inset 0px 0px 7px grey;
+
+}
+
+.submit {
+    padding: 1rem;
+    border: 2px solid rgb(14, 13, 13);
+    background: white;
+    border-radius: 1rem;
+    transition: 1s;
+    font-size: large;
+}
+
+.questions button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.follow {
+    width: 40rem;
+    list-style-type: none;
+    display: flex;
+    margin: 5rem 3rem;
+    justify-content: space-evenly;
+}
+
+.follow svg {
+    width: 2rem;
+    height: 2rem;
+    transition: 2s;
+    filter: invert(100%);
+}
+
+.follow svg:hover {
+    transform: rotate(360deg);
+}
+
+.parallex3 {
+    background: url("https://www.techilife.com/wp-content/uploads/2021/06/Change-Background-Color-e1624427508409.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallex5 {
+    background: url("https://cdn.cbeditz.com/cbeditz/preview/black-shiny-metal-texture-background-wallpaper-11614423409x1pwmuxlpt.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.show
+.details {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.details li {
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+    margin: 1rem 0rem;
+}
+.copyright {
+    color: white;
+    text-align: center;
+    margin-bottom: -6rem;
+}
+
+.copyright p {
+    width: 30rem;
+    font-size: large;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+
+.list2 {
+    background-color:#2e2b2a;
+    color: aliceblue;
+    width: 15rem;
+    font-weight: 900;
+    position: absolute;
+    left: 65%;
+    top: 3.9rem;
+    padding: 1rem;
+    font-size: large;
+}
+
+.list3 {
+    background-color: rgba(83, 78, 78, 0.699);
+    color: aliceblue;
+    width: 25rem;
+    height: 25rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    left: 74%;
+    top: 3.8rem;
+    padding: 1rem;
+}
+
+@media (max-width:480px) {
+
+    .nav-items {
+        display: none;
+    }
+
+    .mybtn {
+        display: inline;
+        position: absolute;
+        left: 85%;
+        top: .7rem;
+        font-size: XX-large;
+        font-weight: bolder;
+        text-align: center;
+        border: 2px solid white;
+        background: transparent;
+        color: white;
+        width: 2.5rem;
+        height: 2.5rem;
+        box-shadow: 0px 0px 5px rgb(216, 210, 210);
+    }
+
+    .taptotop {
+        width: 5rem;
+        height: 5rem;
+        position: sticky;
+    }
+
+    .navbar {
+        margin-top: 1rem;
+    }
+
+    .list3 li {
+        display: block;
+        width: 10rem;        
+        margin-top: 1rem;
+        margin: auto;
+    }
+
+    ul.list3 {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .list3 {
+        background-color: black;
+        font-size: 1.5rem;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        width: 100%;
+        height: 22rem;
+    }
+    .list3 li:last-child{
+        margin-left: 28%;
+    }
+
+    .parallex1 h1 {
+        margin: -1rem 0.1rem;
+    }
+
+    .parallex1 p {
+        width: 90%;
+        margin-left: 0.3rem;
+    }
+
+    .login {
+        margin-bottom: -7rem;
+        margin-left: -2.75rem;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-video {
+        transition: 3s;
+        width: 94%;
+    }
+
+    .about-text {
+        margin-left: -2rem;
+        width: 100%;
+    }
+
+    .parallex2 {
+        height: 35rem;
+        margin-top: 20rem;
+    }
+
+    .parallex2-text {
+        position: relative;
+        top: 2rem;
+        left: 1.5rem;
+        text-align: center;
+    }
+
+    .parallex2 p {
+        margin: 2rem 0rem;
+        font-size: 1.5rem;
+    }
+
+    .left {
+        box-shadow: 0px 0px 10px black;
+        width: 17rem;
+    }
+
+    .right {
+
+        box-shadow: 0px 0px 10px black;
+        width: 17rem;
+    }
+
+    .left img, .right img {
+        width: 17rem;
+
+    }
+
+    .show {
+        display: block;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .instasnap h2 {
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .pics li img {
+        width: 17rem;
+        margin: 1rem;
+    }
+
+    .parallex4 {
+        height: 120rem;
+        display: block;
+    }
+
+    .questions form {
+        position: relative;
+        left: 0rem;
+    }
+
+    .questions h1 {
+        width: 18rem;
+        margin-left: 2rem;
+    }
+
+    .questions textarea {
+        width: 20rem;
+        height: 5rem;
+    }
+
+    ul.follow {
+        display: flex;
+        width: 5rem;
+        margin: 2rem 1rem;
+        column-gap: 2.5rem;
+    }
+
+    .follow h2 {
+        width: 20rem;
+        position: relative;
+        top: 2rem;
+        left: 17rem;
+    }
+
+    .follow svg {
+        position: relative;
+        top: 5rem;
+        left: -3rem;
+    }
+
+    .details {
+        margin-left: 2rem;
+        display: block;
+        margin-bottom: 3rem;
+    }
+
+    .details ul {
+        display: flex;
+        column-gap: 2rem;
+        width: 20rem;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+
+    .copyright p {
+        width: 16rem;
+    }
+}
+
+@media (min-width:481px)and (max-width:1023px) {
+    .nav-items {
+        display: none;
+    }
+
+    .mybtn {
+        display: inline;
+        position: absolute;
+        left: 92%;
+        top: .7rem;
+        font-size: XX-large;
+        font-weight: bolder;
+        text-align: center;
+        border: 2px solid white;
+        background: transparent;
+        color: white;
+        width: 2.5rem;
+        height: 2.5rem;
+        box-shadow: 0px 0px 5px rgb(216, 210, 210);
+    }
+
+    .taptotop {
+        width: 5rem;
+        height: 5rem;
+        position: sticky;
+    }
+
+    .about {
+        text-align: center;
+        height: 50rem;
+        display: block;
+    }
+
+    .about-video {
+        width: 45rem;
+        height: 20rem;
+    }
+
+    .about-text {
+        text-align: center;
+        width: 45rem;
+    }
+
+    .parallex2 h2 {
+        margin-top: 1rem;
+    }
+
+    .parallex2-text {
+        position: relative;
+        top: 4rem;
+        left: 4rem;
+        width: 40rem;
+        text-align: center;
+    }
+
+    .parallex2 p {
+        font-size: 1.5rem;
+    }
+
+    .right,.left{
+        width: 42.5rem;
+        height: 17rem;
+    }
+    
+
+    .instasnap h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .pics {
+        display: block;
+        text-align: center;
+    }
+
+    .pics li img {
+        width: 35rem;
+        height: 20rem;
+    }
+
+    .show {
+        font-size: large;
+        width: 20rem;
+        height: 5rem;
+        margin: auto;
+        display: block;
+    }
+
+    .more {
+        display: none;
+    }
+}
+@media (max-width:1023px)and(orientation:landscape){
+    body{
+        display: none;
+    }
+    .alert{
+        display: block;
+    }
+}
