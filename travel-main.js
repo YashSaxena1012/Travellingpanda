@@ -1,15 +1,15 @@
 var cont = 6350
 function showmore() {
     showbtn = document.querySelector('.show')
-    if (showbtn.placeholder == "SHOW MORE") {
+    if (showbtn.innerText == "SHOW MORE") {
         cont = 9500
         document.querySelector('.more').style.display = "block"
-        showbtn.placeholder = "SHOW LESS"
+        showbtn.innerText = "SHOW LESS"
     }
     else {
         cont = 6350
         document.querySelector('.more').style.display = "none"
-        showbtn.placeholder = "SHOW MORE"
+        showbtn.innerText = "SHOW MORE"
 
     }
 }
